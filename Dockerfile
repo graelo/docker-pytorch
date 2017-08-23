@@ -3,7 +3,7 @@ MAINTAINER u0xy <u0xy@u0xy.cc>
 
 RUN apt-get update -qq \
   && apt-get upgrade -y \
-  && apt-get install -y python3-pip \
+  && apt-get install -y python3-pip python3-tk \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
